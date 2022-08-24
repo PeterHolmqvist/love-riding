@@ -1,1 +1,2 @@
 started with the file directory, also created a .js since I going to be using a menu with some js function that have used earlier for some private projects.
+I added some metadata to the documents and linked them together. A favicon, or a "tab image", was added that I got from favicon.com. Even some description, keywords and author was added. The rest was already in the code institute template.
