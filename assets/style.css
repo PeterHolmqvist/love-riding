@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Secular+One&display=swap');
+h1 {
+  font-family: 'Secular One', sans-serif;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+header h1 {
+  text-align: center;
+  color: #69140E;
+  
+  position: inherit;
+}
+
+#page-1-header {
+  background-color: rgba(194,	192,	148, 0.5);
+  margin-top: 30%;
+  height: 150px;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 45px;
+}
+
+#page-2-header {
+  margin-top: 0%;
+  background-color: rgba(194,	192,	148, 0.5);
+  height: 150px;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 60px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -5,6 +40,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    
   }
     
   
@@ -17,19 +53,20 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Fira Sans Condensed', sans-serif;
   
  }
   
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color:  rgba(194,	192,	148, 0.5);
     color: black;
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #69140E;
     color: white;
   }
   
@@ -55,8 +92,8 @@
     margin-left: 0; 
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+/* When the screen is less than 576 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 576px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -65,7 +102,7 @@
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 576px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -78,3 +115,7 @@
       text-align: left;
     }
   }
+
+
+
+
