@@ -135,6 +135,45 @@ img {
     margin-left: 0; 
 }
 
+#contact {
+  font-family: 'Secular One', sans-serif;
+  font-size: 36px;
+  color: #69140E;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+
+#phone, #mail, #address {
+  float: right;
+  color: #69140E;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  left: -20%;
+  display: block
+}
+
+input {
+  position: relative;
+  
+}
+
+label {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #69140E;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+
 /* When the screen is less than 576 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 576px) {
     .topnav a:not(:first-child) {display: none;}

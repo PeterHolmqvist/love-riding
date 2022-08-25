@@ -11,3 +11,5 @@ added image to video section of the page from, pexels.com shout out Danny Bor.
 After testing I decided to ditch the 3 separate pages and go with one page design. This due to the load time i experienced testing on mobile phone. And also that the navigtion menu was to cluttered with 3 pages plus 10 video sections. 
 
 Did some testing in google dev tool and adjusted header positioning accordingly. Added contact page and some map and a footer.
+
+tossed out the map and the footer I was borrowing from coders coffehouse and started over from scratch, could not get the positioning with the iframe element. 
