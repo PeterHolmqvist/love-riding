@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Secular+One&display=swap');
 h1 {
   font-family: 'Secular One', sans-serif;
-  font-size: 45px;
+  font-size: 42px;
   text-transform: capitalize;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
 }
 
 body {
@@ -13,22 +15,28 @@ body {
 header h1 {
   text-align: center;
   color: #69140E;
-  
-  position: inherit;
+  padding: 5%;
+  position: relative;
+
+  letter-spacing: 3px;
 }
 
 #page-1-header {
   background-color: rgba(194,	192,	148, 0.5);
-  margin-top: 30%;
+  margin-top: 32%;
   height: 150px;
   margin-left: 0%;
   margin-right: 0%;
-  padding-top: 45px;
+  
 }
 
 article {
   background-color:  rgba(194,	192,	148, 0.5);
   padding: 15px;
+  margin-top: 13%;
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
  
 }
 
@@ -36,7 +44,7 @@ H2 {
   font-family: 'Secular One', sans-serif;
   color:#69140E; 
   font-weight: bold;
-  margin-top: 50px;
+  margin: 0px;
 }
 
 article h3 {
@@ -46,13 +54,25 @@ article h3 {
 
 }
 
+img {
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
 #page-2-header {
-  margin-top: 0%;
+  margin-top: -1px;
   background-color: rgba(194,	192,	148, 0.5);
-  height: 150px;
+  height: 185px;
   margin-left: 0%;
   margin-right: 0%;
-  padding-top: 60px;
+  padding: top 20px;
+  z-index: 1;
+  
+}
+
+#page-2-header h1 {
+  margin-top: 0px;
 }
 
 /* Add a black background color to the top navigation */
@@ -105,7 +125,7 @@ article h3 {
 #loopvid{
     width: 100%;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;

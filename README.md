@@ -6,3 +6,8 @@ Added the videos to page-2 "the video page" embedded from youtube. The video pla
 added navbar from w3schools.com
 some fonts added from google fonts and some styling to the navbar. 
 added some article text to the main page some transparent background.
+added image to video section of the page from, pexels.com shout out Danny Bor.
+
+After testing I decided to ditch the 3 separate pages and go with one page design. This due to the load time i experienced testing on mobile phone. And also that the navigtion menu was to cluttered with 3 pages plus 10 video sections. 
+
+Did some testing in google dev tool and adjusted header positioning accordingly. Added contact page and some map and a footer.
