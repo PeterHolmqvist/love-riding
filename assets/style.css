@@ -154,7 +154,8 @@ img {
   text-align: left;
   position: relative;
   left: -20%;
-  display: block
+  display: block;
+  size: 20%;
 }
 
 input {
@@ -170,6 +171,15 @@ label {
   text-align: center;
 }
 
+ #subscribe {
+  color: #69140E;
+  display: block;
+  size: 20%;
+ }
+
+ .addresses {
+  display: block;
+ }
 
 
 
