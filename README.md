@@ -3,9 +3,9 @@
 Love Riding is a video tuorial on how to do some basic mountainbiking skills
 broken down in 60 second videos. It's a great resource to turn to when it's  time to ride that steep drop of you been avoiding, tackle an obstacle you been strugling with or if you just wan't to improve your skills in general whether your a beginner or an experienced rider. 
 
-The simple format of one minute how-to's with a very consice step-by-step breakdown is genius because it prevent infotmation overload and over thinkinig wich is probably the most common reason for bailing out when trying to do a difficult section of a trail, or even worse, wipe out. 
+The simple format of one minute how-to's with a very consice step-by-step breakdown is genius because it prevent information overload and over thinkinig wich is probably the most common reason for bailing out when trying to do a difficult section of a trail, or even worse, wipe out. 
          
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](/assets/media/responsive.jpg)
 
 ## Features 
 
@@ -13,83 +13,64 @@ The simple format of one minute how-to's with a very consice step-by-step breakd
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Top Navigation Bar__
 
   - The fixed navigation topbar follows the you wherever you are on the page and you will always have any section of the page within your reach.
   - This section you can reach all 10 how to videos and all section of the page without having to use the browsers built in nav arrows. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+
 
 - __The landing page videoloop__
 
   - The user is meet with an video loop covering the entire width of the screen with a theme video of mountainbiker riding along a hill with breath-taking veiw wich sets the mood for the page.
   - This section lets the user know that if their looking for bike content this page is it.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](/assets/media/landing.jpg)
 
 - ____
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - the about section user get to read obout the page and veiw an image.
+  - . 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Abot_section](/assets/media/pexels-danny-bor-9994208.jpg)
 
-- __Meetup Times section__
+- __video section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see watch 60 second how to videos of a 10 video long playlist.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Video](/assets/media/videopage.jpg)
 
-- __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- __Contact Page__
+  - This section looks like a fractured kneepcap.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Sign Up](/assets/media/contact.jpg)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Get the Navbar running 
+- Contact page 
+- Other MTB tutorials
 
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I extensively used the google developer tool and thier diffrent device views. Also i looked code and used the box view the examines issues with margin, padding border. I also used my mobile phone and browser to tes for bugs. Am I responsive was also a great feature.   
 
 
 ### Validator Testing 
 
+![w3validator](/assets/media/testw3.jpg)
+![(Jigsaw) validator](/assets/media/jigsaw.jpg)
+
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  only errors shown in W3Validator was was the iframes from gogle embedded links. All errors from my codes where fixed.
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+The most bugs i have is regarding positioning the elements and display prorperty issues.
+
 
 ## Deployment
 
@@ -105,15 +86,15 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- mountain theme favicon from flaticon.com
+- nav bar from W3Schools.com
+- The video loop for background is fom pexels.com
+- video section image from artist Danny Bor pexels.com
+- Video playlist from youtube.com GMBN 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
 
 ### Media
 
@@ -121,21 +102,4 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used for the gallery page were taken from this other open source site
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+C§ 

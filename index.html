@@ -14,6 +14,7 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/281/281568.png">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <title>How to MTB in 60sec</title>
@@ -21,13 +22,29 @@
 </head>
 
 <body>
+    <!--nav bar from W#Schools.com with some mods-->
     <nav>
-        <!--nav bar from w3schools.com with some mods-->
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="page-2.html">Videos</a>
-            <a href="page-3.html">Contact</a>
-            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Videos
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#stoppie">Stoppie</a>
+                  <a href="#berms">Berms</a>
+                  <a href="#drops">Drops</a>
+                  <a href="#skids">Skids</a>
+                  <a href="#manual ">Manual</a>
+                  <a href="#climb">Climbs</a>
+                  <a href="#corners">Corners</a>
+                  <a href="#bunnyhop">Bunny-Hop</a>
+                  <a href="#presseure">Tyre-pressure</a>
+                  <a href="#wheelie">Wheelie</a>
+            </div>
+            </div>
+            <a href="#page-1-header">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
             </a>
@@ -36,7 +53,7 @@
 
 
     <!--The video loop for background is fom pexels.com-->
-    <video id="loopvid" autoplay muted loop type="mp4" poster="https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/">
+    <video id="loopvid" autoplay muted loop poster="https://www.pexels.com/photo/silhouette-photography-of-biker-on-top-of-hill-1619299/">
         <source src="assets/media/loopvid.mp4">
     </video>
 
@@ -50,7 +67,7 @@
     <article>
         <h2>Learn the essential mountainbike skills in 60 second video clips</h2>
         <h3>Is it time to ride that scary drop on your home trail that you been dreading? want to make that 
-            steep technical climb? Or just want to improve your cornering skills in geneleral?
+            steep technical climb? Or just want to improve your cornering skills in general?
             Everybody that have some exeprience riding, or at least of Wiping out know that overthinkingh is 
             probably the most common reason to failing while trying to overcome an obstacle.
             Thats why we created this video tutorial site that consits of a playlist from GMBN 
@@ -142,16 +159,13 @@
     </div>
 <div id="subscribe">
     <p>Subscribe to our newsletter</p>
-    <label for="email">email</label>
-    <input type="email">
+    <label for="email">mail</label>
+    <input id="email" type="email">
     <input type="submit">
 </div>  
 </div>  
 
 
-
+<script src="/assets/javascript.js"></script>
 </body>
-
-<script src="assets/javascript.js"></script>
-
 </html>

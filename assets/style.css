@@ -66,7 +66,7 @@ img {
   height: 185px;
   margin-left: 0%;
   margin-right: 0%;
-  padding: top 20px;
+  padding-top: 20px;
   z-index: 1;
   
 }
@@ -118,8 +118,60 @@ img {
     display: none;
   }
 
+  /*navbar dropp down button from w3schools.com*/
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: none;
+    font-size: 16px;
+    font-weight: bold;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Fira Sans Condensed', sans-serif;;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #69140E;
+  }
+  
+  .dropdown-content {
+    
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
 
 
+iframe {
+ max-width: 100%;
+}
 
 
 #loopvid{
@@ -155,7 +207,7 @@ img {
   position: relative;
   left: -20%;
   display: block;
-  size: 20%;
+
 }
 
 input {
@@ -174,7 +226,7 @@ label {
  #subscribe {
   color: #69140E;
   display: block;
-  size: 20%;
+
  }
 
  .addresses {
